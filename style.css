@@ -1,0 +1,118 @@
+*{margin: 0px;
+background-color: lightgray;
+box-sizing: border-box;
+color: darkred;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+h1 {
+    background-color: darkred;
+    color: lightgray;
+    padding: 10px;
+}
+header nav {
+align-items: center;
+}
+nav a {
+    color: darkred;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav :hover {
+    opacity: 70%;
+  }
+.profile-pic {
+width: 100%;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+}
+.about-me, .work, .contact-me, .resume {
+    display: flex;
+    margin-top: 30px;
+}
+.title {
+    flex: 0 0 20%;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    margin-right: 30px;
+    flex-wrap: wrap;
+}
+.content {
+    flex: 0 0 80%;
+    border-left: solid darkred 4px;
+    padding-left: 30px;
+    line-height: 30px;
+}
+p {
+    padding: 10px;
+}
+.grid {
+    padding: 10px;
+}
+.grid a:hover {
+    opacity: 50%;
+}
+img.seo {
+    width: 100%;
+    border: 5px solid darkred;
+}
+img.prework {
+    position: relative;
+    top: 85%;
+    width: 100%;
+    border: 5px solid darkred;
+}
+.container {
+    position: relative;
+}
+.container2 {
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightgray;
+    opacity: 70%;
+    color: darkred;
+    padding: 10px;
+}
+.text-block2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightgray;
+    opacity: 70%;
+    color: darkred;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .profile-pic {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header {
+     display: flex;
+     flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px) {
+.lower-page {
+     display: flex;
+     flex-wrap: wrap;
+    }
+}
+
