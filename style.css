@@ -3,9 +3,6 @@ background-color: lightgray;
 box-sizing: border-box;
 color: darkred;
 }
-body {
-    overflow-x: hidden;
-}
 header {
     display: flex;
     justify-content: space-between;
@@ -30,7 +27,10 @@ nav :hover {
     opacity: 70%;
   }
 .profile-pic {
+display: block;    
 width: 100%;
+margin-left: auto;
+margin-right: auto;
 }
 aside {
     display: flex;
@@ -53,6 +53,7 @@ aside {
     border-left: solid darkred 4px;
     padding-left: 30px;
     line-height: 30px;
+    max-width: 70%;
 }
 p {
     padding: 10px;
@@ -75,9 +76,11 @@ img.prework {
 }
 .container {
     position: relative;
+    width: 70%;
 }
 .container2 {
     position: relative;
+    width: 70%;
 }
 .text-block {
     position: absolute;
