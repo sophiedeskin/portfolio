@@ -58,11 +58,12 @@ aside {
 p {
     padding: 10px;
 }
-.grid {
-    padding: 10px;
+
+.container :hover {
+    opacity: 70%;
 }
-.grid a:hover {
-    opacity: 50%;
+.container2 :hover {
+    opacity: 70%;
 }
 img.seo {
     width: 100%;
